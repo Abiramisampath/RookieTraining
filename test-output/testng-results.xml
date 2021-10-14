@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-13T10:38:43 IST" name="Default suite" finished-at="2021-10-13T10:39:01 IST" duration-ms="18095">
+  <suite name="Suite" duration-ms="9792" started-at="2021-10-14T11:31:31 IST" finished-at="2021-10-14T11:31:41 IST">
     <groups>
     </groups>
-    <test started-at="2021-10-13T10:38:43 IST" name="Default test" finished-at="2021-10-13T10:39:01 IST" duration-ms="18095">
-      <class name="com.selenium.sample.OrangeHRM">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.selenium.sample.OrangeHRM@1a18644]" started-at="2021-10-13T10:38:43 IST" name="setup" finished-at="2021-10-13T10:38:48 IST" duration-ms="5206" status="PASS">
+    <test name="Test" duration-ms="7262" started-at="2021-10-14T11:31:31 IST" finished-at="2021-10-14T11:31:38 IST">
+      <class name="com.selenium.sample.ParallelTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.selenium.sample.ParallelTest@569cfc36]" name="openBrowser" is-config="true" duration-ms="3708" started-at="2021-10-14T11:31:31 IST" finished-at="2021-10-14T11:31:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:0, instance:com.selenium.sample.OrangeHRM@1a18644]" started-at="2021-10-13T10:38:48 IST" name="testLogin" finished-at="2021-10-13T10:39:00 IST" duration-ms="11858" status="PASS">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login_TestCase()[pri:0, instance:com.selenium.sample.ParallelTest@569cfc36]" name="login_TestCase" duration-ms="1556" started-at="2021-10-14T11:31:34 IST" finished-at="2021-10-14T11:31:36 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.sample.OrangeHRM@1a18644]" started-at="2021-10-13T10:39:00 IST" name="tearDown" finished-at="2021-10-13T10:39:01 IST" duration-ms="1007" status="PASS">
+        </test-method> <!-- login_TestCase -->
+        <test-method status="PASS" signature="search_TestCase()[pri:0, instance:com.selenium.sample.ParallelTest@569cfc36]" name="search_TestCase" duration-ms="1025" started-at="2021-10-14T11:31:36 IST" finished-at="2021-10-14T11:31:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.selenium.sample.OrangeHRM -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- search_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.sample.ParallelTest@569cfc36]" name="closeBrowser" is-config="true" duration-ms="948" started-at="2021-10-14T11:31:37 IST" finished-at="2021-10-14T11:31:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.sample.ParallelTest -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="9792" started-at="2021-10-14T11:31:31 IST" finished-at="2021-10-14T11:31:41 IST">
+      <class name="com.selenium.sample.ParallelTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.selenium.sample.ParallelTest@149494d8]" name="openBrowser" is-config="true" duration-ms="5062" started-at="2021-10-14T11:31:31 IST" finished-at="2021-10-14T11:31:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login_TestCase()[pri:0, instance:com.selenium.sample.ParallelTest@149494d8]" name="login_TestCase" duration-ms="2487" started-at="2021-10-14T11:31:36 IST" finished-at="2021-10-14T11:31:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_TestCase -->
+        <test-method status="PASS" signature="search_TestCase()[pri:0, instance:com.selenium.sample.ParallelTest@149494d8]" name="search_TestCase" duration-ms="1031" started-at="2021-10-14T11:31:38 IST" finished-at="2021-10-14T11:31:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.sample.ParallelTest@149494d8]" name="closeBrowser" is-config="true" duration-ms="1207" started-at="2021-10-14T11:31:39 IST" finished-at="2021-10-14T11:31:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.sample.ParallelTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>
